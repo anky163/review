@@ -1,0 +1,58 @@
+textarea {
+    min-height: 200px;
+}
+
+.mailbox-view {
+    padding: 0;
+    margin: 0;
+}
+
+.content-email {
+    clear: both;
+    border-top: 1px #000000 solid;
+    border-bottom: 1px black solid;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: block;
+    height: 50px;
+}
+
+
+.preposition {
+    display: inline-block;
+    width: 50px;
+}
+
+.person-email {
+    display: inline-block;
+    width: 300px;
+}
+
+.email-subject {
+    display: inline-block;
+}
+
+
+.email-timestamp {
+    float: right;
+}
+
+#email-body {
+    padding: 20px;
+    width: 100%;
+    border: none;
+    min-height: 200px;
+    max-height: 500px;
+}
+
+#archive-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+#reply-button {
+    margin-top: 10px;
+}
