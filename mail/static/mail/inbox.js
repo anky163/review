@@ -272,7 +272,7 @@ function reply_email(email)
   
   const timestamp = `${month} ${day} ${year}, ${hour}:${minute} ${meridiem}`;
 
-  document.querySelector('#compose-body').value = `On ${timestamp} ${user} wrote:\n\n`;
+  document.querySelector('#compose-body').value = `${email.body}\n\n` + `On ${timestamp} ${user} wrote:\n`;
   // Sending email
   document.querySelector('#compose-form').onsubmit = send_email;
 }
